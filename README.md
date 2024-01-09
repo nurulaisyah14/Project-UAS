@@ -28,6 +28,25 @@
 
 
 # $${\color{lightblue}PENJELASAN}$$
+1. Dictionary Menu (menu):
+Kode program ini adalah definisi dari fungsi daftar_barang(). Fungsi ini bertujuan untuk menampilkan daftar makanan dan minuman beserta harganya.
+```python
+menu = {
+    def daftar_barang():
+    print("| No |  Makanan/Minuman   | Harga |")
+    print("-------------------------------")
+    print("| 1  | Gorengan Tempe     | 1000  |")
+    print("| 2  | Gorengan Jagung    | 2000  |")
+    print("| 3  | Bakwan             | 1000  |")
+    print("| 4  | Gorengan Tahu      | 1000  |")
+    print("| 5  | Es Cappucino       | 5000  |")
+    print("| 6  | Teh Poci           | 5000  |")
+    print("| 7  | Ayam Geprek        | 15000 |")
+    print("| 8  | Ayam Bakar         | 15000 |")
+    print("| 9  | Nasi Goreng        | 10000 |")
+    print("| 10 | Air Mineral        | 5000  |")
+
+```
 * Program yang diberikan adalah program sederhana Python yang mensimulasikan sistem kasir. Program ini terdiri dari beberapa fungsi, yaitu daftar_barang(), tanya(), dan akhir().
 Fungsi daftar_barang() menampilkan daftar item dengan harga, mengambil input dari pengguna untuk kode item dan jumlahnya, dan menghitung total harga. Pertama-tama, fungsi ini menampilkan daftar item dengan harga menggunakan perintah print(). Kemudian, pengguna diminta untuk memasukkan kode item menggunakan perintah input() dan diubah menjadi integer menggunakan int(). Setelah itu, program menggunakan if-elif-else statements untuk menentukan harga item berdasarkan kode yang dimasukkan pengguna. Jumlah item juga diminta dari pengguna dan dihitung total harganya. Total harga disimpan dalam list total menggunakan perintah append(). Setelah itu, fungsi tanya() dipanggil.
 * Fungsi tanya() menanyakan apakah pengguna ingin menambahkan item lain atau tidak. Jika pengguna ingin menambahkan item lain, fungsi daftar_barang() dipanggil kembali. Jika tidak, fungsi akhir() dipanggil.
