@@ -12,7 +12,7 @@
 
 ## **Program Kasir Di Sebuah Kantin**<br>
 
-|Link Youtube|... |
+|Link Youtube|https://youtu.be/DJBOGBmWdg4?si=ppNqO11QFO93yOCR |
 | --- | --- |
 
 # CODE PROGRAM PYTHON
