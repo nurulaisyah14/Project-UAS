@@ -46,7 +46,7 @@
 
 ```
 
-2. Kode program yang Anda berikan merupakan bagian dari fungsi yang digunakan untuk memproses pilihan makanan atau minuman yang dimasukkan oleh pengguna.
+2. Kode program ini merupakan bagian dari fungsi yang digunakan untuk memproses pilihan makanan atau minuman yang dimasukkan oleh pengguna.
 ```python
     print("-------------------------------")
     kode = int(input("Masukkan angka makanan  : "))
@@ -104,7 +104,7 @@
 
 ```
 
-3. Kode program yang Anda berikan merupakan definisi dari fungsi tanya(). Fungsi ini bertujuan untuk menanyakan kepada pengguna apakah mereka ingin menambahkan menu makanan atau minuman lainnya.
+3. Kode program ini merupakan definisi dari fungsi tanya(). Fungsi ini bertujuan untuk menanyakan kepada pengguna apakah mereka ingin menambahkan menu makanan atau minuman lainnya.
 ```python
     def tanya():
     print("\n-------------------------------")
@@ -118,7 +118,7 @@
         print("Pilihan yang anda masukan salah!")
 ```
 
-4. Kode program yang Anda berikan adalah definisi dari fungsi akhir(). Fungsi ini bertujuan untuk menghitung total pembelian, memberikan diskon berdasarkan total harga, menghitung kembalian, dan menampilkan pesan terima kasih kepada pengguna.
+4. Kode program ini adalah definisi dari fungsi akhir(). Fungsi ini bertujuan untuk menghitung total pembelian, memberikan diskon berdasarkan total harga, menghitung kembalian, dan menampilkan pesan terima kasih kepada pengguna.
 ```python
     def akhir():
     for harga in total:
